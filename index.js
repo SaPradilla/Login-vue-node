@@ -7,7 +7,7 @@ const app = express();
 // cors
 const cors = require('cors');
 var corsOptions = {
-    origin: '*', // Reemplazar con dominio
+    origin: '*', // Reemplazar con dominio, para que todo mundo lo use
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 app.use(cors(corsOptions));
